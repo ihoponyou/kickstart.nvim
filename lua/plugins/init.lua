@@ -82,4 +82,5 @@ return {
 
   require 'plugins.vimtex',
   require 'plugins.theme',
+  require 'plugins.rojo',
 }
