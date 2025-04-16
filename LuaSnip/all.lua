@@ -24,21 +24,7 @@ return {
     t '}',
   }),
 
-  -- example fmt use
-  -- s(
-  --   { trig = 'eq', dscr = 'LaTeX equation' },
-  --   fmt(
-  --     [[
-  --     \begin{equation}
-  --       <>
-  --     \end{equation}
-  --     ]],
-  --     { i(1) },
-  --     { delimiters = '<>' }
-  --   )
-  -- ),
-
-  -- better equation snippet
+  -- fmta (format anglebracket)
   s(
     { trig = 'eq', dscr = 'LaTeX equation' },
     fmta(
@@ -47,7 +33,7 @@ return {
           <>
         \end{<>}
       ]],
-      { i(1), i(2), rep(1) }
+      { i(1), i(0), rep(1) }
     )
   ),
 

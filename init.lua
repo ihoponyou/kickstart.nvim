@@ -179,14 +179,6 @@ require('luasnip.loaders.from_lua').load {
   paths = { '~/AppData/Local/nvim/LuaSnip/' },
 }
 
-require('luasnip').config.set_config {
-  -- enable "auto triggered" snippets
-  enable_autosnippets = true,
-  -- use tab to trigger visual selection
-  -- store_selection_keys = '<Tab>',
-  update_events = { 'TextChanged', 'TextChangedI' },
-}
-
 -- vim.keymap.set('i', '{', '{}<ESC>i')
 -- vim.keymap.set('i', '(', '()<ESC>i')
 
